@@ -1,0 +1,72 @@
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 5rem;
+}
+
+.lovskov_knap {
+    font-family: "schoolbell-pro", sans-serif;
+    background-color: #fecd55;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 30px;
+    margin: 33px;
+    border-radius: 50px;
+}
+
+.lovskov_knap:hover {
+    background-color: #fc3c2d;
+    text-decoration: none;
+}
+
+.grid_img img {
+    margin-top: 3rem;
+}
+
+@media (min-width: 800px) {
+    h1 {
+        font-size: 5rem;
+        text-align: left;
+    }
+
+    .grid_index {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid_skov {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .grid_img {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .grid_img img {
+        margin-top: -18rem;
+    }
+
+    p {
+        margin-right: 10rem;
+        margin-bottom: 5rem;
+    }
+
+    .lovskov_knap {
+        padding: 25px 70px;
+        margin: 17px;
+        font-size: 2rem;
+    }
+
+    .footer {
+        margin-top: -19%;
+    }
+}
