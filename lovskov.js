@@ -1,4 +1,4 @@
-// Definér konstanter for URL'en til API'en og API-nøglen for overskud
+// Definér konstanter for URL'en til API'en og API-nøglen for bedre overskud
 const url = "https://ebwnpfllzucpiixhtnhu.supabase.co";
 const key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVid25wZmxsenVjcGlpeGh0bmh1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTM5MTIzMDEsImV4cCI6MjAwOTQ4ODMwMX0.CyZqh6CsJ8T2r-1KUO0oillkNqf7941nqLFY3jCnbSA";
 
