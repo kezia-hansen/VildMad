@@ -1,0 +1,198 @@
+/**
+ * Tabs
+ */
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+}
+
+.tabs label {
+    order: 1;
+    display: block;
+    padding: 1rem 2rem;
+    margin-right: 0.2rem;
+    cursor: pointer;
+    background: #2b7e32;
+    color: #fecd55;
+    font-weight: bold;
+    transition: background ease 0.2s;
+    border-radius: 15px;
+    font-family: "schoolbell-pro", sans-serif;
+}
+
+.tabs .tab {
+    order: 99;
+    flex-grow: 1;
+    width: 100%;
+    display: none;
+    padding: 1rem;
+    background: #2b7e32;
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked+label {
+    background: #fecd55;
+    color: #2b7e32;
+    font-family: "schoolbell-pro", sans-serif;
+}
+
+.tabs input[type="radio"]:checked+label+.tab {
+    display: block;
+}
+
+@media (max-width: 45em) {
+
+    .tabs .tab,
+    .tabs label {
+        order: initial;
+    }
+
+    .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.2rem;
+    }
+}
+
+.produktimg {
+    width: 80%;
+    margin-left: 10%;
+    border: solid black;
+    margin-top: 5%;
+    position: absolute;
+    bottom: 34vh;
+    right: 9.5%;
+}
+
+/* Tilføjet af kezia - border omkring h1 */
+.ramme {
+    border: 10px solid #fecd55;
+}
+
+/* .bio {
+  position: absolute;
+  top: 69vh;
+  left: -5%;
+  color: #2b7e32;
+  font-size: 0.9rem;
+} */
+
+/* Tilføjet af kezia - Tilføjet font */
+.ramme h1 {
+    text-align: center;
+    font-family: "schoolbell-pro", sans-serif;
+    color: white;
+}
+
+p {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tab {
+    border: solid #fecd55;
+    margin-right: 10%;
+    border-radius: 20px;
+}
+
+.card {
+    /* background-color: white;
+  margin: 10%;
+  border: solid black; */
+    background-image: url('ramme.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 391.08/479.99;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.svamp {
+    width: 25%;
+    margin-left: 70%;
+}
+
+/* Tilføjet af kezia - Tilføjet ikoner foran tekst */
+.icon {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Tilføjet af kezia - hænger sammen ikonerne og sørger for at de er ved siden af hinanden  */
+.text-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Tilføjet af kezia - border omkring h1 - Style for the text paragraphs*/
+.mund-text,
+.næse-text {
+    flex: 1;
+}
+
+/* Tilføjet af kezia - brødtekst font*/
+p {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+/* Tilføjet af kezia - Styling for speech bubble */
+.speech-bubble {
+    position: relative;
+    background: #ffffff;
+    border-radius: .4em;
+    padding: 10%;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #ffffff;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .ramme h1 {
+        font-size: 6rem;
+    }
+
+    .grid_1-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+    }
+
+    .card {
+        margin-top: 10%;
+    }
+
+    .produktimg {
+        width: 39%;
+        margin-left: 10%;
+        margin-top: 5%;
+        position: absolute;
+        top: 63vh;
+        right: 57%;
+    }
+}
