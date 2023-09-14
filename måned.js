@@ -12,7 +12,7 @@ const options = {
 const season = urlParams.get("season");
 const snavn = urlParams.get("navn");
 
-document.querySelector(".custom-body h2").textContent = snavn;
+document.querySelector("h2").textContent = snavn;
 
 console.log(season);
 
