@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 449.62 278.37">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        isolation: isolate;
+      }
+
+      .cls-2, .cls-4 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #38883d;
+        font-family: SchoolbellPro, 'Schoolbell Pro';
+        font-size: 50px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        stroke-width: 0px;
+      }
+
+      .cls-6 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g>
+    <ellipse class="cls-5" cx="224.81" cy="114.33" rx="224.81" ry="114.33"/>
+    <polygon class="cls-5" points="21.85 272.68 120.77 210.76 57.96 161.71 21.85 272.68"/>
+    <polygon class="cls-5" points="415.04 278.37 325.69 203.31 394.71 163.46 415.04 278.37"/>
+  </g>
+  <g id="VELKOMMEN_TIL_SKOVEN" data-name="VELKOMMEN TIL SKOVEN" class="cls-1">
+    <text class="cls-2" transform="translate(57.71 119.21)"><tspan x="0" y="0">VELKOMMEN TIL</tspan></text>
+    <text class="cls-3" transform="translate(137.21 165.21)"><tspan class="cls-4" x="0" y="0" xml:space="preserve"> SK</tspan><tspan class="cls-6" x="62.7" y="0">O</tspan><tspan class="cls-4" x="89.9" y="0">VEN</tspan></text>
+  </g>
+</svg>
