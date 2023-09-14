@@ -1,0 +1,65 @@
+/* General Styling for the body */
+.custom-body {
+    background-image: linear-gradient(to bottom right, #96de98, #2b7e32);
+    min-height: 100vh;
+    box-sizing: border-box;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.content-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* image styling */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Style headings */
+h1 {
+    font-family: "schoolbell-pro", sans-serif;
+    color: white;
+    margin-bottom: 10%;
+}
+
+h2 {
+    font-family: "schoolbell-pro", sans-serif;
+    color: white;
+    margin-bottom: 10%;
+}
+
+h3 {
+    font-family: "schoolbell-pro", sans-serif;
+    margin-bottom: 10%;
+    color: #2b7e32;
+}
+
+/* Style paragraphs */
+p {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    line-height: 1.5;
+    margin-bottom: 10%;
+}
+
+/* Style links */
+a {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+}
