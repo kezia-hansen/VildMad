@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link til css -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="måned.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Link til fonte -->
+    <link rel="stylesheet" href="https://use.typekit.net/ade8bsy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="logo_hvid.svg" alt="Logo">
+                </div>
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="lovskov.html">Løvskov</a></li>
+                <li><a href="måned.html">Sæson</a></li>
+                <li><a href="produkt.html">Råvarer</a></li>
+            </ul>
+        </div>
+    </header>
+    <img src="storagern.svg" alt="storagern" class="storagern">
+    <h2>Sæson</h2>
+
+    <div class="produktgrid">
+        <template id="smallproducttemplate">
+            <article class="smallproduct">
+                <img class="billede" src="" alt="billede">
+
+
+                <h3>Sahara Team India Fanwear Round Neck Jersey</h3>
+
+                <a class="read-more" href="produkt.html">Læs mere</a>
+
+            </article>
+        </template>
+    </div>
+
+
+    <footer>
+        <img class="footer" src="skov_1.svg" alt="">
+    </footer>
+
+    <script src="måned.js"></script>
+    <script src="nav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link til css -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="lovskov.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Link til fonte -->
+    <link rel="stylesheet" href="https://use.typekit.net/ade8bsy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <title>Løvskov</title>
+</head>
+
+<body class="custom-body">
+    <header class="main-nav">
+        <div class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="logo_hvid.svg" alt="Logo">
+                </div>
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="lovskov.html">Løvskov</a></li>
+                <li><a href="måned.html">Sæson</a></li>
+                <li><a href="produkt.html">Råvarer</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="border">
+        <h1>Løvskov</h1>
+        <img class="lov_figur" src="svamp_talebobble.svg" alt="svamp med talebobble">
+        <p class="lov_txt">Løvskoven er som et magisk spisekammer fyldt med spændende ingredienser og
+            smagsoplevelser,
+            som vi kan udforske og bruge
+            i madkunstskab.</p>
+    </section>
+
+    <div class="content-wrapper">
+        <h2>Vælg en sæson :D</h2>
+        <div class="grid_note">
+            <template>
+                <div class="note">
+                    <a class="link_s" href="måned.html">.</a>
+                </div>
+            </template>
+        </div>
+    </div>
+    <footer>
+        <img class="footer" src="skov_1.svg" alt="">
+    </footer>
+
+    <script src="lovskov.js"></script>
+    <script src="nav.js"></script>
+</body>
+
+</html>
