@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link til css -->
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="nav.css">
+
+    <!-- Link til fonte -->
+    <link rel="stylesheet" href="https://use.typekit.net/ade8bsy.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+
+    <title>Forside</title>
+</head>
+
+<body class="custom-body">
+
+    <header class="main-nav">
+        <div class="navbar">
+            <a href="index.html">
+                <div class="logo">
+                    <img src="logo_hvid.svg" alt="Logo">
+                </div>
+            </a>
+            <div class="burger-menu" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html">Forside</a></li>
+                <li><a href="lovskov.html">Løvskov</a></li>
+                <li><a href="måned.html">Sæson</a></li>
+                <li><a href="produkt.html">Råvarer</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content-wrapper">
+        <h1>Skov</h1>
+        <div class="grid_index">
+            <div class="grid_skov">
+                <p>I nåleskoven og i løvskoven gemmer sig en skattekiste fyldt med spændende smageventyr! Her kan du
+                    opdage en verden af
+                    svampe, spiselige blade, saftige skud, duftende urter, smagfulde bær og knasende nødder. Det er som
+                    at træde ind i en
+                    eventyrlig skovkøkken, hvor naturen er din madkunstskabs bedste ven.</p>
+
+
+                <a class="lovskov_knap" href="lovskov.html">Løvskov</a>
+                <a class="lovskov_knap" href="">Nåleskov</a>
+            </div>
+
+            <div class="grid_img">
+                <img src="talende_nodsvamp.svg" alt="talebobel">
+
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img class="footer" src="skov_1.svg" alt="">
+    </footer>
+
+
+    <script src="index.js"></script>
+    <script src="nav.js"></script>
+</body>
+
+</html>

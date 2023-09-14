@@ -1,0 +1,76 @@
+body,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the navigation bar */
+.navbar {
+    background-color: #fece55a0;
+    overflow: hidden;
+}
+
+/* Logo style */
+.navbar .logo {
+    float: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar .logo img {
+    width: 30%;
+    height: auto;
+}
+
+/* Navigation links */
+.navbar ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 150px;
+}
+
+.navbar ul li a {
+    color: #2b7e32;
+    text-decoration: none;
+}
+
+/* Burger menu style */
+.burger-menu {
+    display: none;
+    float: right;
+    cursor: pointer;
+    padding: 10px;
+    color: #ffff;
+    font-size: 3rem;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        background-color: #fece55a0;
+        position: absolute;
+        top: 73px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar ul.active {
+        display: block;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+}

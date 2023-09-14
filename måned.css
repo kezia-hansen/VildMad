@@ -1,0 +1,80 @@
+#smallproducttemplate {
+    background-color: white;
+}
+
+.billede {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid rgb(20, 19, 19);
+    padding: 1px;
+}
+
+.smallproduct {
+    background-color: white;
+    border-radius: 50px;
+    padding: 40px;
+    margin: 20px;
+    border: solid 4px rgb(45, 45, 45);
+}
+
+.storagern {
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    max-width: 100px;
+    height: auto;
+}
+
+h2 {
+    font-family: "schoolbell-pro", sans-serif;
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+
+    border: 10px solid #ffcd55;
+    padding: 10%;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.read-more {
+    color: #ffcd55;
+
+}
+
+@media screen and (min-width: 800px) {
+    .produktgrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .smallproduct {
+        background-color: white;
+
+        border-radius: 50px;
+        padding: 35px;
+        margin: 15px;
+    }
+
+    .billede {
+        max-width: 220px;
+        height: auto;
+        padding: 10px;
+        border: solid rgb(20, 19, 19);
+    }
+
+    .storagern {
+        position: absolute;
+        top: 374px;
+        left: 80px;
+        max-width: 210px;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+}
